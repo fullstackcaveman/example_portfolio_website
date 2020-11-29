@@ -1,4 +1,3 @@
 .vscode
-scss
 dist/css/*.map
 dist/js/*dev.js
