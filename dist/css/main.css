@@ -624,6 +624,10 @@ img {
     padding-bottom: 2rem;
   }
 
+  .item-text-title {
+    font-size: 1.5rem;
+  }
+
   #contact-b {
     padding: 1.25rem 0.5rem;
   }
