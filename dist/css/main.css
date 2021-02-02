@@ -10,6 +10,7 @@
   padding: 0.8rem 2rem;
   transition: all 0.5s;
   border: none;
+  border-radius: 3px;
   cursor: pointer;
 }
 
@@ -459,6 +460,11 @@ img {
   font-size: 4rem;
 }
 
+form {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 #main-footer {
   background: #333;
   color: #fff;
@@ -470,7 +476,8 @@ img {
   height: 5rem;
   align-items: center;
 }
-#main-footer .footer-content .social .fab {
+#main-footer .footer-content .social a .fab,
+#main-footer .footer-content .social a .fas {
   margin-right: 1rem;
   border: 2px #fff solid;
   border-radius: 50%;
@@ -479,8 +486,10 @@ img {
   line-height: 20px;
   text-align: center;
   padding: 0.5rem;
+  color: #fff;
 }
-#main-footer .footer-content .social .fab:hover {
+#main-footer .footer-content .social a .fab:hover,
+#main-footer .footer-content .social a .fas:hover {
   background: #ffbc00;
 }
 

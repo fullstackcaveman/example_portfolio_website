@@ -1,3 +1,5 @@
+// sass --watch scss/main.scss:dist/css/main.css
+
 @import 'config';
 @import 'utilities';
 @import 'item_grid';
@@ -369,6 +371,11 @@ img {
 	}
 }
 
+form {
+	max-width: 60%;
+	margin: 0 auto;
+}
+
 // Footer
 #main-footer {
 	background: $dark-color;
@@ -381,7 +388,8 @@ img {
 		height: 5rem;
 		align-items: center;
 
-		.social .fab {
+		.social a .fab,
+		.social a .fas {
 			margin-right: 1rem;
 			border: 2px #fff solid;
 			border-radius: 50%;
@@ -390,6 +398,7 @@ img {
 			line-height: 20px;
 			text-align: center;
 			padding: 0.5rem;
+			color: #fff;
 
 			&:hover {
 				background: $main-color;
